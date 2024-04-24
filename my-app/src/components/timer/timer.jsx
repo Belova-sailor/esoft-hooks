@@ -4,7 +4,6 @@ const Timer = () => {
 	const [timer, setTimer] = useState(10);
 	
 	useEffect(() => {
-		console.log('таймер')
 		const timerId = setInterval(() => {
 			setTimer(prev => prev > 0?(prev - 1): '0')
 		}, 1000)
