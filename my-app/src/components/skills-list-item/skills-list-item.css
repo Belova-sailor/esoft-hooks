@@ -1,0 +1,39 @@
+.card {
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: floralwhite;
+  border-radius: 4px;
+  box-shadow: 15px 15px 30px rgb(0, 0, 0, 0.15);
+}
+
+.img_card {
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  object-position: center;
+  object-fit: contain;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.text-wrap {
+  display: inline
+}
+
+.text-wrap span {
+  color: #3d5a80;
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.header-bar {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #3d5a80;
+  border-radius: 4px;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+.App-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.header-logo {
+	padding-left: 20px;
+}
+
+span {
+  align-content: center;
+  font-weight: 700;
+}
+
+.right-bar-wrap {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+
+}
+
+.left-bar-wrap {
+  display: flex;
+}
