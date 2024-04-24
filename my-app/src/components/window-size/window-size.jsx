@@ -15,10 +15,7 @@ const WindowSize = () => {
   };
 
   useEffect(() => {
-    console.log("effect");
-
-    window.addEventListener("resize", resizeWindow);
-    console.log(size);
+   window.addEventListener("resize", resizeWindow);
 
     return () => {
       window.removeEventListener("resize", resizeWindow);

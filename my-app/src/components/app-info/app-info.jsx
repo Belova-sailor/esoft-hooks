@@ -14,8 +14,6 @@ const AppInfo = () => {
       </span>
       <h2 className="info-name">Юлия Белова</h2>
 		</div>
-      
-	  <ButtonGroup />
     </div>
   );
 };
